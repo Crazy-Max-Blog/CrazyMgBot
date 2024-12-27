@@ -1,0 +1,2 @@
+# CrazyMgBot
+CrazyMgBot Core
