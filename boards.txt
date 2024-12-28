@@ -32,7 +32,7 @@ menu.LORAWAN_PREAMBLE_LENGTH=LoRaWan Preamble Length
 
 ##############################################################
 
-esp32cam.name=AI Thinker ESP32-CAM
+esp32cam.name=MGBOT MGB-CAM
 
 esp32cam.bootloader.tool=esptool_py
 esp32cam.bootloader.tool.default=esptool_py
