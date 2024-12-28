@@ -1,5 +1,7 @@
 {
-  "name": "framework-crazymgbot",
+  "name": "crazymgbot",
+  "title": "razyMgBot",
+
   "version": "0.1.0",
   "description": "Arduino Wiring-based Framework for MgBot boards",
   "keywords": [
