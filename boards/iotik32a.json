@@ -18,8 +18,7 @@
     "can"
   ],
   "frameworks": [
-    "arduino",
-    "espidf"
+    "arduino"
   ],
   "name": "MGBOT IOTIK 32A",
   "upload": {
