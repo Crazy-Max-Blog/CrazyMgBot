@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<sdf version="1.5">
+	<model name="flix">
+		<link name="body">
+			<inertial>
+				<mass>0.065</mass>
+				<inertia>
+					<ixx>3.55E-5</ixx>
+					<iyy>4.23E-5</iyy>
+					<izz>7.47E-5</izz>
+				</inertia>
+			</inertial>
+			<collision name="collision">
+				<geometry>
+					<box>
+						<size>0.125711 0.125711 0.022</size>
+					</box>
+				</geometry>
+			</collision>
+			<visual name="body">
+				<geometry>
+					<mesh><uri>model://flix/flix.dae</uri></mesh>
+				</geometry>
+			</visual>
+			<sensor name="imu" type="imu">
+				<always_on>1</always_on>
+				<visualize>1</visualize>
+				<update_rate>1000</update_rate>
+				<imu>
+					<angular_velocity>
+						<x>
+							<noise type="gaussian">
+								<stddev>0.00174533</stddev><!-- 0.1 degrees per second -->
+							</noise>
+						</x>
+						<y>
+							<noise type="gaussian">
+								<stddev>0.00174533</stddev>
+							</noise>
+						</y>
+						<z>
+							<noise type="gaussian">
+								<stddev>0.00174533</stddev>
+							</noise>
+						</z>
+					</angular_velocity>
+					<linear_acceleration>
+						<x>
+							<noise type="gaussian">
+								<stddev>0.0784</stddev><!-- 8 mg -->
+							</noise>
+						</x>
+						<y>
+							<noise type="gaussian">
+								<stddev>0.0784</stddev>
+							</noise>
+						</y>
+						<z>
+							<noise type="gaussian">
+								<stddev>0.0784</stddev>
+							</noise>
+						</z>
+					</linear_acceleration>
+				</imu>
+			</sensor>
+		</link>
+		<plugin name="flix" filename="libflix.so"/>
+	</model>
+</sdf>
