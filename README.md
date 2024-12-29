@@ -34,8 +34,8 @@ monitor_speed = 115200 ; Скорость монитора порта
 
 ## Примеры
 В пункте Файл->Примеры (File->Examples) Есть пункты:
-  Core_Examples: Приверы, встроенные в ядро esp32
-  MgBot_Examples: Примеры под каждый модуль MgBot из репозитория github.com/MAKblC/Codes
+- Core_Examples: Приверы, встроенные в ядро esp32
+- MgBot_Examples: Примеры под каждый модуль MgBot из репозитория github.com/MAKblC/Codes
 
 <a id="versions"></a>
 
@@ -46,4 +46,4 @@ monitor_speed = 115200 ; Скорость монитора порта
 
 ## Баги и обратная связь
 При нахождении багов создавайте **Issue**.  
-Библиотека открыта для доработки и ваших **Pull Request**'ов!
+Проект открыт для доработки и ваших **Pull Request**'ов!
