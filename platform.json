@@ -76,18 +76,11 @@
       "owner": "espressif",
       "version": "~12.1.0"
     },
-    "framework-arduinoespressif32": {
+    "framework-arduinoespressif32 @ https://github.com/Crazy-Max-Blog/CrazyMgBot": {
       "type": "framework",
       "optional": true,
       "owner": "platformio",
       "version": "~3.20017.0"
-    },
-    "framework-espidf": {
-      "type": "framework",
-      "optional": true,
-      "owner": "platformio",
-      "version": "~3.50301.0",
-      "optionalVersions": ["~3.40407.0"]
     },
     "tool-esptoolpy": {
       "type": "uploader",
