@@ -19,7 +19,7 @@
   },
   "frameworks": {
     "arduino": {
-      "package": "https://github.com/Crazy-Max-Blog/CrazyMgBot",
+      "package": "crazymgbot @ https://github.com/Crazy-Max-Blog/CrazyMgBot",
       "script": "builder/frameworks/arduino.py"
     }
   },
