@@ -9,9 +9,6 @@
     "arduino",
     "mgbot"
   ],
-  "engines": {
-    "platformio": "^6"
-  },
   "license": "AGPL-3.0",
   "repository": {
     "type": "git",
@@ -19,7 +16,7 @@
   },
   "frameworks": {
     "arduino": {
-      "package": "crazymgbot @ https://github.com/Crazy-Max-Blog/CrazyMgBot",
+      "package": "framework-CrazyMgBot",
       "script": "builder/frameworks/arduino.py"
     }
   },
@@ -72,11 +69,10 @@
       "owner": "espressif",
       "version": "~12.1.0"
     },
-    "framework-arduinoespressif32 @ https://github.com/Crazy-Max-Blog/CrazyMgBot": {
+    "framework-CrazyMgBot": {
       "type": "framework",
-      "optional": true,
-      "owner": "platformio",
-      "version": "~3.20017.0"
+      "optional": false,
+      "version": "https://github.com/Crazy-Max-Blog/CrazyMgBot.git"
     },
     "tool-esptoolpy": {
       "type": "uploader",
