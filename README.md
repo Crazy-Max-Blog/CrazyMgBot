@@ -18,18 +18,6 @@
 ## Установка
 В Arduino IDE в пункте Файл->Параметры->Дополнительные ссылки для менеджера плат (File->Preferences->Advanted boards manager URLs) справа нажать на кнопку, затем втавить ссылку `https://crazymax.is-a.dev/package_CrazyMgBot_index.json`. После этого в меню Инструменты->Плата->Менеджер плат (Tools->Board->Boards manager) найти и установить `CrazyMgBot`.
 
-<details>
-<summary>platformio.ini</summary>
-
-```ini
-[env:mgbot-iotik32b]
-platform = https://github.com/Crazy-Max-Blog/CrazyMgBot.git
-board = iotik32b ; iotik32a, mgb-cam
-monitor_speed = 115200 ; Скорость монитора порта
-```
-
-</details>
-
 <a id="examples"></a>
 
 ## Примеры
